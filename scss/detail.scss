@@ -1,0 +1,31 @@
+@import 'equalizer';
+@import 'styles';
+
+.book-detail {
+
+    .book-title {
+        margin: 0 0 52px 0;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .book-genre{
+        color: $equalizer-grey;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .info-container{
+        margin: 0 0 36px 0;
+
+        .book-subtitle {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    
+        .book-info {
+            color: $equalizer-grey;
+            font-size: 20px;
+        }
+    }
+}
